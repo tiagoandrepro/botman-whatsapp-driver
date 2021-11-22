@@ -1,0 +1,29 @@
+{
+    "name": "tiagoandrepro/botman-whatsapp-driver",
+    "description": "BotMan WhatsApp Driver",
+    "type": "project",
+    "version": "0.0.1",
+    "require": {
+        "botman/botman": "^2.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotMan\\Drivers\\WhatsApp\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tiago André",
+            "email": "thiago_andre@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BotMan\\Drivers\\WhatsApp\\Providers\\WhatsAppServiceProvider"
+            ]
+        }
+    }
+}
